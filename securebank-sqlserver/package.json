@@ -1,0 +1,14 @@
+{
+  "name": "securebank-v8-sqlserver",
+  "version": "1.0.0",
+  "description": "Laboratorio académico SecureBank (SQL Server) - SAST/DAST y remediación de SQLi. Vulnerable a proposito, solo uso local.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mssql": "^11.0.1"
+  }
+}
